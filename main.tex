@@ -6,11 +6,59 @@
 \usepackage{array}             % Пакет для покращеної роботи з таблицями
 
 \title{Практична робота: Математичні формули} 
-\author{Ваше прізвище ім'я}                          
+\author{Гуцол Альона}                          
 \date{\today}                                
 
 \begin{document} % Початок тексту документа
 
 \maketitle % Команда, яка фактично малює заголовок, автора та дату на сторінці
+
+\section*{Квадратне рівняння}
+
+Квадратне рівняння має вигляд: $ax^2 + bx + c = 0$
+
+\begin{equation}
+ax^2 + bx + c = 0
+\end{equation}
+
+Його розв’язки залежать від дискримінанта $D$.
+
+\begin{align}
+D &= b^2 - 4ac \\
+x_{1,2} &= \frac{-b \pm \sqrt{D}}{2a}
+\end{align}
+\section*{Проста таблиця}
+
+\begin{tabular}{|c|c|c|}
+\hline
+1 & 2 & 3 \\
+\hline
+4 & 5 & 6 \\
+\hline
+7 & 8 & 9 \\
+\hline
+\end{tabular}
+\section*{Таблиця з формулами}
+
+\begin{tabular}{|c|c|c|}
+\hline
+$a^2$ & $b^2$ & $c^2$ \\
+\hline
+$\sqrt{a}$ & $\sqrt{b}$ & $\sqrt{c}$ \\
+\hline
+$\frac{1}{a}$ & $\frac{1}{b}$ & $\frac{1}{c}$ \\
+\hline
+\end{tabular}
+\section*{Приклад розв'язання}
+
+Розв’яжемо рівняння $2x^2 - 4x - 6 = 0$:
+
+\begin{align*}
+a &= 2,\quad b = -4,\quad c = -6 \\
+D &= (-4)^2 - 4 \cdot 2 \cdot (-6) = 16 + 48 = 64 \\
+x &= \frac{-(-4) \pm \sqrt{64}}{2 \cdot 2} \\
+x &= \frac{4 \pm 8}{4} \\
+x_1 &= 3,\quad x_2 = -1
+\end{align*}
 
 \end{document} % Кінець документа
